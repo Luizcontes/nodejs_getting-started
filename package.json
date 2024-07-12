@@ -2,12 +2,18 @@
   "name": "nodejs",
   "version": "1.0.0",
   "description": "",
-  "main": "hello_world.js",
+  "main": "server.js",
   "scripts": {
+    "start": "tsc --noEmit && npx tsx type_script_example.ts",
+    "server": "tsc --noEmit && npx tsx server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "tsx": "^4.16.2"
+  }
 }
