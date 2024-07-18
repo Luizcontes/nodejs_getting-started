@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "dev": "tsc --noEmit && npx tsx --env-file=.env --watch server.ts",
     "start": "tsc --noEmit && npx tsx type_script_example.ts",
     "server": "tsc --noEmit && npx tsx server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -16,5 +17,9 @@
     "@types/node": "^20.14.10",
     "ts-node": "^10.9.2",
     "tsx": "^4.16.2"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "progress": "^2.0.3"
   }
 }
