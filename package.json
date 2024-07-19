@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "tsc --noEmit && npx tsx --env-file=.env --watch server.ts",
-    "start": "tsc --noEmit && npx tsx type_script_example.ts",
+    "start": "tsc --noEmit && npx tsx app.ts",
     "server": "tsc --noEmit && npx tsx server.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
