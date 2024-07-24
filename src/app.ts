@@ -1,5 +1,5 @@
-import { isAdult } from './type_script_example';
-import { User } from './type_script_example';
+import { isAdult } from '../src/type_script_example';
+import { User } from '../src/type_script_example';
 
 const justine: User = {
   name: 'Justine',

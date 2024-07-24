@@ -1,4 +1,4 @@
-import { RequestOptions, HeadersOptions } from './src/types/httpTypes'
+import { RequestOptions, HeadersOptions } from '../types/httpTypes'
 
 async function httpTest(): Promise<void> {
 
