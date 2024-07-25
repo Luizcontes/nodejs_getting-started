@@ -14,7 +14,9 @@
      "experimentalDecorators": true,
      "sourceMap": true,
      "strictNullChecks": true,
+     "allowImportingTsExtensions": true,
+     "noEmit": true,
   },
-  "include": ["*.ts", "src/*.ts", "src/servers/http_request.ts", "src/servers/server.ts"],
+  "include": ["*.ts", "src/*.ts", "src/servers/http_request.ts", "src/servers/server.ts", "tests/sum.test.ts"],
   "exclude": ["node_modules", "**/*.spec.ts"]
 }

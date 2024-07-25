@@ -7,14 +7,16 @@
     "dev": "tsc --noEmit && npx tsx --env-file=.env --watch ./src/server.ts",
     "start": "tsc --noEmit && npx tsx app.ts",
     "server": "tsc --noEmit && npx tsx server.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
+    "@types/jest": "^29.5.12",
     "@types/node": "^20.14.10",
+    "ts-jest": "^29.2.3",
     "ts-node": "^10.9.2",
     "tsx": "^4.16.2"
   },
