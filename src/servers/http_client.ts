@@ -46,16 +46,17 @@ req.on('error', (error) => {
 });
 
 // Write the JSON data to the request body
-// req.write(postData);
+req.write(postData);
 
-let counter = 0
-setInterval(() => {
+// let counter = 0
+// setInterval(() => {
 
-    console.log(`loop count: ${counter}`);
-    req.write(`loop count: ${counter}`)
-    counter++;
-}, 5000);
+//     console.log(`loop count: ${counter}`);
+//     req.write(`loop count: ${counter}`)
+//     counter++;
+// }, 5000);
 
 
 // Don't forget to end the request
-// req.end();
+
+req.end();
