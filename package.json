@@ -7,7 +7,7 @@
     "dev": "tsc --noEmit && npx tsx --env-file=.env --watch ./src/server.ts",
     "start": "tsc --noEmit && npx tsx app.ts",
     "server": "tsc --noEmit && npx tsx server.ts",
-    "test": "jest"
+    "test": "jest --coverage --coverageReporters='json-summary'"
   },
   "keywords": [],
   "author": "",
